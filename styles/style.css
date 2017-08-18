@@ -9,27 +9,50 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 65px;
     background-color: #fff;
-    margin-top: -5px;
+    margin-bottom: -6px;
+    overflow: hidden;
+
+}
+
+.logo{
+    height: 10vh;
+    width: 185px;
+    margin-bottom:-20px;
+    margin-top:-15px;
+    margin-left: 12px;
+    overflow: hidden;
+    
+}
+
+.logo-home-link{
+    overflow: hidden;
+    background-color: transparent
+    
+    
+    
 }
 
 .nav-bar-links {
     list-style-type: none;
     padding-left: 319px;
-    width: 50%;
+    width: 74%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 56px;
+    margin-left: -153px;
 }
 
 li {
     padding: 10px 15px;
+    color: #173C63;
+    text-transform: uppercase;
 }
 
 li:hover {
     background-color: lightgray;
+    color:#173C63;
     opacity: 0.5;
 }
 
@@ -38,9 +61,10 @@ li:hover {
 }
 
 a {
-    color: #1892EB;
+    color: #173C63;
     text-decoration: none;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .login-button {
@@ -48,7 +72,7 @@ a {
     background: #fff;
     display: inline-block;
     margin-bottom: 0;
-    font-weight: 200;
+    font-weight: 390;
     text-align: center;
     vertical-align: middle;
     -ms-touch-action: manipulation;
@@ -58,7 +82,8 @@ a {
     border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
-    margin-left: 10px;
+    margin-left: 24px;
+    margin-right: -18px;
     font-size: 14px;
     line-height: 20px;
     border-radius: 2px;
@@ -104,4 +129,12 @@ a {
 .signup-button:hover {
     background-color: #0081d1;
     border-color: #0081d1;
+}
+/* End of Header */
+
+/* Home Hero section================================= */
+.home-hero{
+    background: linear-gradient(to right,#37A7EA 0,#A6ECEE 100%); 
+    height: 621px;
+
 }
