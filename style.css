@@ -1,0 +1,107 @@
+body {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    margin-top: -5px;
+}
+
+.nav-bar-links {
+    list-style-type: none;
+    padding-left: 319px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 56px;
+}
+
+li {
+    padding: 10px 15px;
+}
+
+li:hover {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+.action-buttons {
+    padding-right: 40px;
+}
+
+a {
+    color: #1892EB;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.login-button {
+    color: #0091ea;
+    background: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 2px;
+}
+
+.login-button:hover {
+    color:black;
+}
+
+.signup-button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #0091ea;
+    border-color: #0091ea;
+    text-align: center;
+}
+
+.signup-button:hover {
+    background-color: #0081d1;
+    border-color: #0081d1;
+}
