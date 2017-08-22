@@ -44,15 +44,29 @@ header {
 }
 
 li {
+    font-family: Averta 200;
+    font-weight: 500;
     padding: 10px 15px;
-    color: #173C63;
+    color:  #0e253f;
     text-transform: uppercase;
+    font-size: 13px;
+    
 }
 
 li:hover {
-    background-color: lightgray;
-    color:#173C63;
-    opacity: 0.5;
+    background-color: #EEEEEE;
+    color: #0e253f;
+    /* opacity: 0.5; */
+}
+ul li:hover:after{
+    box-sizing: inherit;
+    position: relative;
+    display: block;
+    padding-bottom: 8px;
+    width: 98%;
+    content: ' ';
+    overflow: hidden;
+    border-bottom: 2px dotted #173C63;
 }
 
 .action-buttons {
@@ -60,7 +74,7 @@ li:hover {
 }
 
 a {
-    color: #173C63;
+    color: #175E94;
     text-decoration: none;
     font-weight: 300;
     text-transform: uppercase;
