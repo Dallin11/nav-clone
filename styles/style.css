@@ -231,7 +231,7 @@ p{
     background-color: #37A7EA;
 }
 
-/* Second Section */
+/* Second Section ============================= */
 
 .section2{
     height: 680px;
@@ -319,7 +319,60 @@ margin-left: 350px;
     white-space: nowrap;
     border-radius: 5px;
     }
+ 
+    /* Third Section =========================== */
+    .section3{
+        height: 893px;
+        width: 100%;
+        font-weight: bold;
+    }
+    .lgtext{
+        text-align: center;
+        font-size: 64px;
+        line-height: 70px;
+        color: #014486;
+    }
+    .desc-text {
+        max-width: 800px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 37px;
+        color: #2d3238;
+        font-size: 24px;
+        text-align: center;
+        word-wrap: break-word;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 233px;
+    }
+    .desc-text a{
+        text-decoration: none;
+        color: #0091EA;
+        font-size: 24px;
+        font-style: italic;
+        text-transform: lowercase;
+    }
+    .forty-one{
+      width: 100%;
+      margin-right: 20px;
 
+    }
+    .bank-loan{
+        margin-left: 545px;
+        margin-top:-231px;
+        
+    }
+    .bank-loan p{
+        font-size: 32px;
+        line-height: 40px;
+        color: #96999C;
+        font-weight: 800;
+        font-style: normal;
+        }
+
+    .graph{
+        margin-left: 223px;
+    }
 
   
     
